@@ -1,0 +1,32 @@
+{
+  "name": "hans-validator",
+  "version": "1.0.0",
+  "description": "validator for express requests based validatorjs",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hemae/hans-validator.git"
+  },
+  "keywords": [
+    "validation",
+    "express",
+    "node.js"
+  ],
+  "author": "Hans Andersen <hemae2468@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hemae/hans-validator/issues"
+  },
+  "homepage": "https://github.com/hemae/hans-validator#readme",
+  "devDependencies": {
+    "@types/validatorjs": "^3.15.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "validatorjs": "^3.22.1"
+  }
+}
