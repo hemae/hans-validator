@@ -22,7 +22,7 @@ Export validator from *hans-validator*
 
 ```javascript
 const validator = require('hans-validator')
-const {ValidationRules, buildRules} = require('hans-validator')
+const {buildRules} = require('hans-validator')
 ```
 using TypeScript
 ```typescript
