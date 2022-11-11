@@ -7,6 +7,7 @@ export type AcceptRules =
     | 'required'
     | 'string'
     | 'url'
+    | string
 
 export type BuiltRules = string
 
